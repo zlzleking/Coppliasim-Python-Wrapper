@@ -18,5 +18,7 @@ Coppliasim 스크립트는 동기와 비동기 스크립트로 나눠져 있습�
 기본적으로 env 객체를 만든 다음 bot 객체를 생성해서 사용하면 됩니다. env객체가 생성될 때 시뮬레이션과 연결이 수립됩니다. bot 객체는 env객체를 입력받아서 생성해야 합니다.
 
 ### 의존성
-Coppliasim의 python api를 기반으로 동작하기 때문에 관련 파일을 같은 디렉토리에 넣어야 동작합니다. 기본적으로는 [이 문서](https://www.coppeliarobotics.com/helpFiles/en/remoteApiClientSide.htm)를 참조해 주세요.
+Coppliasim의 python api를 기반으로 동작하기 때문에 관련 파일을 같은 디렉토리에 넣어야 동작합니다. 기본적으로는 [이 문서](https://www.coppeliarobotics.com/helpFiles/en/remoteApiClientSide.htm)를 참조해 주세요
+
+이미지 처리 관련해서 PIL과 numpy를 사용합니다. 만약 해당 부분이 필요 없다면 해당 부분의 코드를 지우고 사용해 주세요.
 
